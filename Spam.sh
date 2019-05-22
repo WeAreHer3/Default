@@ -1,6 +1,6 @@
-#!/bin/bash
-#====================================================
-#figlet -f standard DEFAULT
+!/bin/bash
+====================================================
+figlet -f standard DEFAULT
 
 
 
