@@ -1,9 +1,9 @@
 <?php
 
 echo " ============================= "
-sleep 2
+
 echo " ==        Spam Jink        == "
-sleep 0.7
+
 echo " ============================= "
 //Spam Telepon
 function send($phone) {
