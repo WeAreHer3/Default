@@ -1,10 +1,6 @@
 <?php
 
-echo " ============================= "
 
-echo " ==        Spam Jink        == "
-
-echo " ============================= "
 //Spam Telepon
 function send($phone) {
         $ch = curl_init();
