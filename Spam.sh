@@ -20,7 +20,25 @@ sleep 2
 echo " ==        Spam Jink        == "
 sleep 0.7
 echo " ============================= "
-load(){
+function send($phone) {
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "https://www.tokopedia.com/oauth/otp");                      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+echo $asw."\n";
+}
+echo "Nomor : ";
+
+$nomor = trim(fgets(STDIN));
+
+$execute = send($nomor);
+
+print $execute;
+
+?>
+
+
+
+
+
 
 
 
