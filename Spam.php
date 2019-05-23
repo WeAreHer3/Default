@@ -1,6 +1,4 @@
 <?php
-
-
 //Spam Telepon
 function send($phone) {
         $ch = curl_init();
@@ -16,19 +14,3 @@ echo "Nomor : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
