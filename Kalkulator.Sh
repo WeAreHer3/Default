@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pkg install bc
+
 #Program Calculator
 
    penambahan(){
